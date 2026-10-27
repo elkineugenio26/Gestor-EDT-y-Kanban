@@ -1,5 +1,5 @@
 reactpy==1.1.0
 # ReactPy 1.1 usa Starlette.add_websocket_route, que FastAPI/Starlette recientes eliminaron.
 fastapi==0.115.14
-uvicorn>=0.30,<0.40
+uvicorn[standard]>=0.30,<0.40
 pytest>=8
